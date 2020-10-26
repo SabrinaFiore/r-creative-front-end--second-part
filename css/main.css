@@ -59,14 +59,9 @@ canvas {
     text-decoration: none;
 }
 
-.main-content--link:visited {
-    color: unset;
-}
-
-.main-content--link:hover {
-    color: unset;
-}
-
+.main-content--link:visited,
+.main-content--link:hover,
 .main-content--link:active {
     color: unset;
-} 
+    text-decoration: none;
+}
